@@ -1,6 +1,3 @@
-solution = Solution()
-print(solution.numDecodings("2126"))
-
 class Solution:
     def numDecodings(self, s: str) -> int:
         if not s:
@@ -19,3 +16,5 @@ class Solution:
         return dp[len(s)]
 
 
+solution = Solution()
+print(solution.numDecodings("2126"))
